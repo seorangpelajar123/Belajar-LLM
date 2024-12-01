@@ -1,6 +1,5 @@
-import streamlit as st                                                   
-import pandas as pd                                                      
-from langchain_google_genai import ChatGoogleGenerativeAI                
-from langchain_core.prompts import ChatPromptTemplate                    
-import fitz                                                      
-import docx
+streamlit
+pandas
+langchain-google-genai
+pymupdf
+python-docx
