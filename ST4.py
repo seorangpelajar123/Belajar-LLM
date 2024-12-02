@@ -5,7 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 import fitz  # PyMuPDF
 import docx
 
-API_KEY = "YOUR_API_KEY"
+API_KEY = "AIzaSyDG2elPsSEaLne5o7d7J97FW8oubJ5wgyQ"
 
 def chat(question):
     llm = ChatGoogleGenerativeAI(
@@ -34,9 +34,7 @@ def chat(question):
 # Tampilan judul dengan gambar balon
 col1, col2 = st.columns([2, 1])
 with col1:
-    st.title("Welcome, di Ai nya Taufiq Bi Usuluddin")
-with col2:
-    st.image("E:/NLP/razer.png", width=150)
+    st.title("Welcome Guys")
 
 # Inisialisasi riwayat chat
 if "chat_history" not in st.session_state:
