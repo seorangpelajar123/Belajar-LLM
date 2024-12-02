@@ -1,5 +1,0 @@
-streamlit
-pandas
-langchain-google-genai
-pymupdf
-python-docx
