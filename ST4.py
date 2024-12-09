@@ -19,7 +19,7 @@ def chat(question):
         st.session_state.messages = [
             (
                 "system",
-                "You are a helpful assistant. Always answer in Indonesian language.",
+                "You are Civil Engginer.",
             )
         ]
 
